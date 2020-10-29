@@ -1,0 +1,14 @@
+******************** AUGMENTATION ARGUMENTS ********************
+**
+** Project: ImageAugmentation
+** Author: Ivan Kalinchuk
+** Date: 15-10-2020
+
+_COMMANDS_START
+** add your commands here. for more details, read features.txt
+RESIZE 256,256
+GRAY_SCALE 1
+NOISE 0.25
+ROTATION 45
+BRIGHTNESS 1000
+_COMMANDS_FINISH

@@ -1,0 +1,67 @@
+#---------------------ImageAugmentation OpenCV---------------------#
+	file: features.txt
+	description: this file contains list of features enabled
+				 in this project. Will be improved
+
+
+
+FEATURES:
+
+1. NAME: Resize.
+
+   FORMAT: RESIZE (YOUR INT WIDTH),(YOUR INT HEIGHT)
+   
+   DESCRIPTION: resizes all images in the given folder (folders)
+   by some value.
+
+   VALUES: both must be more than 0
+
+
+
+
+2. NAME: To gray scale.
+   
+   FORMAT: GRAY_SCALE (1 or 0)
+
+   DESCRIPTION: changes colored (or already gray images) into gray
+   scale. P.S. Stanandard scale formula:
+   G = (0.3 * R) + (0.59 * G) + (0.11 * B), where G - final gray value
+   of a pixel; R - red value of a pixel, G - green value of a pixel,
+   B - blue value of a pixel
+
+   VALUE: 1 if change to grayscale, 0 do not (also you may delete this command)
+
+
+
+
+3. NAME: Noise.
+   
+   FORMAT: NOISE (A NOISE FLOAT VALUE)
+
+   DESCRIPTION: adds points to random positions (simply) noise 
+   to image.
+
+   VALUE: must be more than 0
+
+
+
+
+4. NAME: Rotation transforms
+   
+   FORMAT: ROTATION (A ROTATION VALUE IN DEGREE)
+
+   DESCRIPTION: randomly rotates an images by given value in DEG
+   VALUES: from 0 to 360
+
+
+
+
+5. NAME: Brightness
+   
+   FORMAT: BRIGHTNESS (A NUMBER)
+
+   DESCRIPTION: randomly changes brightess of images, by adding a random value
+				between 2 given values. The more the value is, the brighter it will be made,
+				but the less the value is, the darker it will be.
+
+	VALUE: could be either negative or positive.
